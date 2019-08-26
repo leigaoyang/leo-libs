@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lif.ApiBasic", "Lif.ApiBasic\Lif.ApiBasic.csproj", "{ED3F5EE4-768D-484B-AE0B-B091D0638891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lif.Common", "Lif.Common\Lif.Common.csproj", "{85E45F4F-6784-40D0-90F5-D40B489C439F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lif.Common", "Lif.Common\Lif.Common.csproj", "{85E45F4F-6784-40D0-90F5-D40B489C439F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lif.Tests", "Lif.Tests\Lif.Tests.csproj", "{F17C5BBD-8C39-400C-9EA7-ADC85DF54AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lif.Tests", "Lif.Tests\Lif.Tests.csproj", "{F17C5BBD-8C39-400C-9EA7-ADC85DF54AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
