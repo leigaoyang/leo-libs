@@ -1,11 +1,20 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Lif.ApiBasic.Extensions;
+using Microsoft.Extensions.Logging;
 
 namespace Lif.ApiBasic
 {
     public abstract class BaseService
     {
+        protected readonly ILogger Logger;
+
+        protected BaseService()
+        {
+            var loggerType = typeof(ILogger<>).MakeGenericType(GetType());
+            Logger = Global.ServiceProvider?.GetService(loggerType) as ILogger;
+        }
+
         protected ApiResult Success(string msg = "成功!")
         {
             return new ApiResult
